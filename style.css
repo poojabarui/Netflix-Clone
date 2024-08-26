@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2/family=Martel+Sans:wght@600&family=Poppins:wght@300&display=swap");
+*{
+   padding: 0;
+   margin: 0; 
+   font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: black;
+}
+
+.main{
+    background-image: url("assets/images/bg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100vw);
+    height: 70vh;
+    position: inherit;
+}
+
+.main .box{
+    height: 80vh;
+    width: 100%;
+    opacity: 0.74;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+
+nav{
+    max-width: 80vw;
+    margin: auto;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    height: 52px;
+}
+
+nav img{
+    color: red;
+    width: 114px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button{
+    position: relative;
+    z-index: 10;
+}
+
+.content{
+    font-family: 'Martel Sans', sans-serif;
+    height: calc(100% - 62px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: aliceblue;
+    position: relative;
+    gap: 23px;
+}
+
+.content> :nth-child(1){
+    font-family: "poppins";
+    font-weight: bolder;
+    font-size: 48px;
+    text-align: center;
+}
+
+.content> :nth-child(2){
+    font-weight: 400;
+    font: 28px;
+}
+
+.content> :nth-child(3){
+    font-weight: 400;
+    font: 24px;
+}
+
+.separation{
+    height: 7px;
+    background-color: rgb(63, 60, 60);
+}
+
+.btn{
+    padding: 3px 8px;
+    font-weight: bold;
+    background-color: white);
+}
+
+.btn-red{
+    background-color: red;
+    color: aliceblue;
+    padding: 3px 24px;
+    font-size: 20px;
+    border-radius: 4px;
+}
+
+.content-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.main input{
+    padding: 3px 24px;
+    font-weight: 900;
+    font-size: 20px;
+    border-radius: 4px;
+    background-color: rgba(23,23,23,0.2);
+    border: 1px solid rgba(246, 238, 238, 0.178);
+}
+
+.btn-red-sm{
+    background-color: red;
+    color: aliceblue;
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: rgba(255, 255, 255, 0.74);
+    justify-content: center;
+    align-items: center;
+    font-size: smaller;
+}
+
+
+
+.secImg {
+    position: relative;
+}
+
+.secImg img {
+    width: 555px;
+    position: relative;
+    z-index: 10;
+}
+
+.secImg video {
+    position: absolute;
+    top: 51px;
+    right: 0;
+    width: 555px;
+}
+
+section.first>div {
+    display: flex;
+    flex-direction: column;
+    padding: 34px 0;
+}
+
+section.first>div :nth-child(1) {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+
+section.first>div :nth-child(2) {
+    font-size: 24px;
+
+}
